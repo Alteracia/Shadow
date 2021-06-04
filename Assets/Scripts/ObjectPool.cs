@@ -15,7 +15,7 @@ public class ObjectPool : MonoBehaviour
         Instance = this;
     }
 
-    public void PlaceObject(PuzzleObject puzzleObject)
+    public PuzzleObject PlaceObject(PuzzleObject puzzleObject)
     {
         PuzzleObject current;
         
@@ -31,5 +31,6 @@ public class ObjectPool : MonoBehaviour
         }
         
         current.Reset();
+        return current;
     }
 }

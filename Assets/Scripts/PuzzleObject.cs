@@ -15,13 +15,13 @@ public class PuzzleObject : MonoBehaviour
         this.transform.localRotation = Quaternion.Euler(startRotation);
     }
 
-    public void Rotate(Vector3 vector)
+    public void Rotate(Vector2 anglesDelta)
     {
         
     }
 
-    public void Move(Vector3 position)
+    public void Move(Vector2 positionDelta)
     {
-        
+        this.transform.localPosition -= new Vector3(positionDelta.x, 0f, positionDelta.y);
     }
 }

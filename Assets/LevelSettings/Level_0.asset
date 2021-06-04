@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level_0
   m_EditorClassIdentifier: 
   locked: 0
-  difficulty: 0
+  difficulty: 3
   hint: trunk
   objects:
   - {fileID: 5391802949052180051, guid: 5cc8dcf85a3b84a41b4985a67182b93f, type: 3}
