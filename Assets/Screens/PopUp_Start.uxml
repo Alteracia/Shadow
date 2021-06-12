@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Screen.uss" />
+    <ui:VisualElement name="Screen" class="screen" style="align-items: center; justify-content: center;">
+        <ui:VisualElement name="PopUp" class="screen popup">
+            <ui:Label text="Choose who you\nrealy are" display-tooltip-when-elided="true" class="title" />
+            <ui:Button text="Brave" display-tooltip-when-elided="true" name="Button0" class="button" />
+            <ui:Label text="or" display-tooltip-when-elided="true" class="description" />
+            <ui:Button text="Tester" display-tooltip-when-elided="true" name="Button1" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

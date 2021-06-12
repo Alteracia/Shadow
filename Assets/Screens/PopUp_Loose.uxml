@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Screen.uss" />
+    <ui:VisualElement name="Screen" class="screen">
+        <ui:VisualElement name="PopUp" class="popup">
+            <ui:Label text="You are weak!" display-tooltip-when-elided="true" class="title" />
+            <ui:Label text="You can&apos;t solve this simple puzzle." display-tooltip-when-elided="true" class="description" />
+            <ui:Button text="Close" display-tooltip-when-elided="true" name="Button0" class="button" />
+            <ui:Button text="Quit" display-tooltip-when-elided="true" name="Button1" class="button quit" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

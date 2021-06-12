@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72330cae7867a74d92d33f8c47a565f, type: 3}
   m_Name: Level_3
   m_EditorClassIdentifier: 
-  locked: 1
+  locked: 0
   difficulty: 2
-  hint: 
-  objects: []
+  hint: global
+  objects:
+  - {fileID: 658519148388143518, guid: e3efd5b2b05004542927d685f5e85a56, type: 3}
+  - {fileID: 4635990719816471501, guid: ea260d3bdd6f1436a985ac74e9f85d09, type: 3}

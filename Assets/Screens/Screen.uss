@@ -1,0 +1,76 @@
+.screen {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    width: 50%;
+    height: 75%;
+    background-color: rgba(255, 255, 255, 0.82);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    top: auto;
+    right: auto;
+    align-items: center;
+    justify-content: center;
+    flex-basis: auto;
+    position: absolute;
+}
+
+.title {
+    font-size: 120px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: rgb(0, 0, 0);
+    -unity-text-align: upper-center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: rgb(183, 122, 46);
+    border-left-color: rgb(255, 202, 136);
+    border-right-color: rgb(255, 202, 136);
+    border-top-color: rgb(255, 202, 136);
+    border-bottom-color: rgb(255, 202, 136);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    font-size: 100px;
+}
+
+.button.quit {
+    background-color: rgba(255, 69, 69, 255);
+}

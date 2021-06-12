@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72330cae7867a74d92d33f8c47a565f, type: 3}
   m_Name: Level_1
   m_EditorClassIdentifier: 
-  locked: 1
+  locked: 0
   difficulty: 1
-  hint: 
-  objects: []
+  hint: tea
+  objects:
+  - {fileID: 6442693640731123951, guid: d9e18aa2aed9d460ea7d0fded86b3b14, type: 3}
